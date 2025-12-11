@@ -1,7 +1,19 @@
 {
   "name": "conv-str-width",
+  "version": "0.1.0",
   "module": "src/index.ts",
   "type": "module",
+  "exports": {
+    ".": {
+      "import": "./src/index.ts"
+    }
+  },
+  "files": [
+    "src/index.ts"
+  ],
+  "scripts": {
+    "test": "bun test"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
